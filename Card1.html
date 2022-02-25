@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                overflow: hidden;
+                background: url("https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg");
+            }
+            #mainContainer{
+                height: 120vh;
+               
+                padding: 15px;
+            }
+            #container{
+                width: 350px;
+                
+                
+                margin: 0px auto;
+            }
+            #header{
+                text-align: center;
+                background-color: whitesmoke;
+                padding: 5px;
+            }
+            #mainSection{
+                background-color: rgb(73, 20, 20);
+            }
+            img{
+                border-radius: 50%;
+            }
+            #imgDiv{
+                padding: 20px;
+                text-align: center;
+            }
+            #pDiv{
+                padding: 10px;
+                color: cornsilk;
+            }
+            
+            #tableDiv{
+                padding: 10px;
+               
+            }
+            table{
+                width: 100%;
+                color: white;
+            }
+            #btnDiv{
+                padding: 20px;
+                text-align: center;
+            }
+            button{
+                background-color: cornsilk;
+                padding: 10px;
+                border: none;
+                width: 40%;
+                border-radius: 5px;
+            }
+            #btn1{
+                margin-left: 10px;
+            }
+            #btn2{
+                margin-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div id="container">
+                <div id="header">
+                    <h2>Sayantan Roy</h2>
+                </div>
+                <div id="mainSection">
+                    <div id="imgDiv">
+                        <img src="data:image/jpeg;base64,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" height="150px" width="150px" />
+                    </div>
+                    <div id="pDiv">
+                        <p>As a magazine editor, , when actually puts</p>
+
+                    </div>
+                    <div id="tableDiv"> 
+                      <table>
+                          <tr>
+                              <th>
+                                  <p>50</p>
+                                  <p>post</p>
+                              </th>
+                              <th>
+                                <p>800</p>
+                                <p>followers</p>
+                              </th>
+                              <th>
+                                <p>120</p>
+                                <p>following</p>
+                              </th>
+                          </tr>
+                      </table>  
+                    </div>
+                    <div id="butDiv">
+                        <button id="btn1">follow</button>
+                        <button id="btn2">message</button>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </body>
+
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
